@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sehath Café | Food Order Billing System</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Logo">
+      <h1>Sehath Café</h1>
+    </div>
+    <p class="tagline">Order your favorite meals instantly 🍕</p>
+  </header>
+
+  <main>
+    <section class="menu">
+      <h2>🍽️ Our Menu</h2>
+      <div class="menu-grid">
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Burger">
+          <label><input type="checkbox" value="Burger" data-price="120" /> Burger - ₹120</label>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png" alt="Pizza">
+          <label><input type="checkbox" value="Pizza" data-price="250" /> Pizza - ₹250</label>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3132/3132693.png" alt="Pasta">
+          <label><input type="checkbox" value="Pasta" data-price="180" /> Pasta - ₹180</label>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="Fries">
+          <label><input type="checkbox" value="Fries" data-price="90" /> Fries - ₹90</label>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="Drink">
+          <label><input type="checkbox" value="Soft Drink" data-price="60" /> Soft Drink - ₹60</label>
+        </div>
+      </div>
+      <button id="calculateBtn">💵 Generate Bill</button>
+    </section>
+
+    <section class="bill">
+      <h2>🧾 Your Bill</h2>
+      <ul id="orderList"></ul>
+      <p id="total"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sehath Café | Designed by You 💻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
