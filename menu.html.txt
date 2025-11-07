@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Delight - Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="menu-page">
+  <header>
+    <h1>☕ Cafe Delight</h1>
+    <p>Fresh Coffee, Fresh Mood</p>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <h3>Espresso</h3>
+      <p>₹120</p>
+      <button onclick="addToBill('Espresso',120)">Add</button>
+    </div>
+    <div class="item">
+      <h3>Cappuccino</h3>
+      <p>₹150</p>
+      <button onclick="addToBill('Cappuccino',150)">Add</button>
+    </div>
+    <div class="item">
+      <h3>Sandwich</h3>
+      <p>₹100</p>
+      <button onclick="addToBill('Sandwich',100)">Add</button>
+    </div>
+    <div class="item">
+      <h3>Brownie</h3>
+      <p>₹90</p>
+      <button onclick="addToBill('Brownie',90)">Add</button>
+    </div>
+    <div class="item">
+      <h3>Cold Coffee</h3>
+      <p>₹130</p>
+      <button onclick="addToBill('Cold Coffee',130)">Add</button>
+    </div>
+  </section>
+
+  <section class="bill">
+    <h2>Your Bill</h2>
+    <ul id="billItems"></ul>
+    <p id="total"></p>
+    <a href="payment.html" class="pay-btn">Proceed to Payment</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

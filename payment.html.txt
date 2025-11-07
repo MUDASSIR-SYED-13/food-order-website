@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - Cafe Delight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="payment-page">
+  <div class="payment-container">
+    <h1>💳 Choose Payment Method</h1>
+    <button onclick="window.location.href='https://razorpay.com/'">Pay via Razorpay</button>
+    <button onclick="window.location.href='https://www.paypal.com/'">Pay via PayPal</button>
+    <button onclick="alert('Cash payment selected! Please pay at the counter.')">Pay via Cash</button>
+  </div>
+</body>
+</html>

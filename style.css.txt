@@ -1,0 +1,93 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+header {
+  background: #3e2723;
+  color: white;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.item {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.item button {
+  background: #795548;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item button:hover {
+  background: #5d4037;
+}
+
+.bill {
+  background: #efebe9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.pay-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4e342e;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-page {
+  background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: rgba(255,255,255,0.9);
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.payment-container {
+  padding: 50px;
+}
+
+.payment-container button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #6d4c41;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.payment-container button:hover {
+  background: #4e342e;
+}
